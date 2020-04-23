@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:+GDZp4QbEuZerYQP77HRrhhObcSulsj9UCrSY04z"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:HPR2DJCSc9RcIS+uXosjJdv43ISsKWkS7a9hGFY6"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:gbSkwijm3P32cn/4ntTKJ+uN7A88eEruWAdc1QAz"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2ewDTNX5rcGkVptITVUTvnRx8dU/TMe2LvDPXw+t"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -118,7 +118,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_D-rbgIVMEeqNXLokaOBhUw"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/DELL/Desktop/MMI POC/rd_Item_List.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:GudaQDNW7r4NqOJAK4sYN9Aw9MpAbHfb4+sx3bpb"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:q1e2ui0yQhy7Kw7piXUYv+8K+Qq+00RFkCMbj+cw"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Raw Data - Item List&quot;"/>
@@ -251,7 +251,7 @@
       <column comment="" key="false" length="20" name="item_group" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="lot" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="expiration_date" nullable="true" pattern="&quot;Mon dd, yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="expiration_date" nullable="true" pattern="&quot;&quot;dd-mm-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="status" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="pack" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="gross_weight" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
@@ -271,7 +271,7 @@
       <column comment="" key="false" length="20" name="item_group" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="lot" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="expiration_date" nullable="true" pattern="&quot;Mon dd, yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="expiration_date" nullable="true" pattern="&quot;&quot;dd-mm-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="status" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="pack" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="gross_weight" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
@@ -348,7 +348,7 @@
       <column comment="" key="false" length="20" name="item_group" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="lot" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="expiration_date" nullable="true" pattern="&quot;Mon dd, yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="expiration_date" nullable="true" pattern="&quot;&quot;dd-mm-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="status" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="pack" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="gross_weight" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
@@ -371,13 +371,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d8875077-4b54-428c-a380-22ae036f65fb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+nwidXTuNzidmowoXzn9PcwQQJzxHUq05xuZRWItAhmbZEm0bE4eRFJsgoYShL3D+XjB8451x+ph&#13;
-aKgHohcXXg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6d9a33ab-3d14-48c5-9e8f-65353e486d68"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>p4uxBXbaM383z1SlzJMU5+cGkiIBdELYDlPnNz0fpkDhlEPbBSkmwNeARH7Fpf3SuU1LKP0ZVXe5&#13;
-K4PZ5KjCGQ==</DigestValue></Reference></SignedInfo><SignatureValue>BaC0QDlmYD+C4wmoTOVC1dJ5wVFDGVaQrC5KXQEvvyDFacCVecWnU0CBCwsGzZWDw26ks7A1dMhf&#13;
-OpyQR/RjEmHkjMSEyjyFkAajM9iyofkGyrbZg+ML50bx9ydYfwKclT1d99bBn4KvGSdxMjiEBxMY&#13;
-7qQ5M5iP3XTxCG4+eX4Zbh+vlms9UdXTyezAgFI7eXpoY7g/+rrmx5Jq/z2nqleji3xVp1TVupzR&#13;
-SAbcpt0TtkWiJfHDz2nb7rqSOmcjIwvrBjnwg75FzB+Xe/JYGaz1czhZ4lBrf2ElJ4o00E02Id68&#13;
-2wnIwZ0hUI6V8VgjbkKyhDMflWfog/m8cJ0sUQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cef6f811-0a70-4fe8-a9aa-1336a7f0a755"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1HWdfdjWVomUBpPX9aCQ+G/9ahq+ieIALda3bmhpy6qn7AQD2xoWvHC+/MMKk/UL4sa8wbbbjduw&#13;
+vSmTa/9vaw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0591d98f-fd3f-4bea-8973-4d121c25a53f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>w828h06G9+h2BGKhV5LIbmNui7n09ePxnyy5hQgY4cQ0r+MXMPg81B41oHy3U7glYRYQNWD/Kqsq&#13;
+iqyP8Uqz/A==</DigestValue></Reference></SignedInfo><SignatureValue>Lar8TmQdyRN/Ffsii3mo23SFddSAebG4FWkK3uPmop+zx67inzU+ZgbyzaFXy2jgIIRcupfnhDEE&#13;
+DisQTUXSp/9sdxCA2LUwaEbzG0w0Ob59wk6aRpfn9W6+CkA8jwylEBeTsBxD7F6DzWkNLJiOJ/LW&#13;
+ylnv/oF1e4eCCucB/ueWF8vsVgBEb00w6hzg3ISU0VpNSOKw3z4h3bKXNDHoRYg+VkpYzF7W94nj&#13;
+LKJikESktjEL7E8Wpz9iWxgkegrJdwSyq1HlaBYCZ4U9F3kgglSNm/lSdP7uGVdPwLvdVlEuOEIm&#13;
+ftuaRv19KLlcZWAx59oFRtlEjpltjIY0yFq/Sw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -399,4 +399,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6d9a33ab-3d14-48c5-9e8f-65353e486d68" Target="#_d8875077-4b54-428c-a380-22ae036f65fb"><Timestamp>2020-04-23 11:40:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0591d98f-fd3f-4bea-8973-4d121c25a53f" Target="#_cef6f811-0a70-4fe8-a9aa-1336a7f0a755"><Timestamp>2020-04-23 11:41:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
