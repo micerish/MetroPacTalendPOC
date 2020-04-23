@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
-  <TalendMetadata:FileExcelConnection Encoding="UTF-8" FilePath="C:/Users/DELL/Desktop/rd_Item_List.xlsx" FirstLineCaption="true" HeaderValue="1" Server="Localhost 127.0.0.1" SheetName="Raw Data - Item List" UseHeader="true" dataPackage="_D-rbgoVMEeqNXLokaOBhUw" decimalSeparator="'.'" firstColumn="1" name="item_list" selectAllSheets="true" sheetList="Raw Data - Item List:w&#10;" thousandSeparator="','" xmi:id="_D-rbgYVMEeqNXLokaOBhUw">
+  <TalendMetadata:FileExcelConnection Encoding="UTF-8" FilePath="C:/Users/DELL/Desktop/rd_Item_List.xlsx" FirstLineCaption="true" HeaderValue="1" Server="Localhost 127.0.0.1" SheetName="Raw Data - Item List" UseHeader="true" dataPackage="_D-rbgoVMEeqNXLokaOBhUw" decimalSeparator="'.'" firstColumn="1" id="_D-rbgIVMEeqNXLokaOBhUw" name="item_list" selectAllSheets="true" sheetList="Raw Data - Item List:w&#10;" thousandSeparator="','" xmi:id="_D-rbgYVMEeqNXLokaOBhUw">
     <sheetColumns>A</sheetColumns>
     <sheetColumns>B</sheetColumns>
     <sheetColumns>C</sheetColumns>
@@ -41,13 +41,13 @@
       <feature label="on_hand" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_D-rblYVMEeqNXLokaOBhUw" xsi:type="TalendMetadata:MetadataColumn"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_61c8177d-073c-414d-a038-1e8c2a750edb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GALdzik5BRXBzKjftRCX7NPAcxAugdcDge8y3vSrAreA31PrPjt8lbMMOdWLo58UVlxxvOmmYE/H&#13;
-Ta6e2XYpgg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e534c418-dd21-4df7-bff8-b3dcc8b75571"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mvcRb0sbd5G0R/PN09DTWr3ehUS37S+9Ue+mdUOVGbclSxZ3BI/eaDzPm/VfU51FwSqyBMQ/5y0j&#13;
-l8tIZpgrIg==</DigestValue></Reference></SignedInfo><SignatureValue>OPeRdKSKm6R2IpD3fFbHRSLLI3D6BuApvXLViA3D4L3bquYpttI1x83Jj3s0pNxkCp9inVjvNbea&#13;
-DQwrapYkCyMimcWw/KcL9n2ESNWdoD3rZJw+ZszOJsbM9Q3lGEocQxxSmCijGIgjARxU2bX2KJeL&#13;
-i/F9V1mqvhZCnD9AEOQBtDafJFfPFw2xgJjrW/VhOTmgB1PDUNQzyLmS7SRrQi7h8m9R3refqt4i&#13;
-fM3GWAtCaHPpskTPwdLuLQyKqmQLI9wSmd7WShA4ptHItF9XdQmEd1JJ0o9FRVzobtmLfp92dLKN&#13;
-QWS3COn1iaRN5fLkhGjVhMKAoOsx8FEncXTDig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d3632ef0-0f6e-480d-b934-dc63f45de88f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0kJPlgI3PZ1ydhkDG9GuPVhSRkx0bIrkPT2PwT7Iqv4ZeR+T9wkQNaoRsClZg+i4hkz2cwN0CNHK&#13;
+cG1r05Oe5w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_04cdd48c-cef0-46a8-bedb-5bee7e71ed3e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AxQKUCoO0rW0FcWhCqn3f/JETtwP/l0Zrd3rQlr/vge6gLPfWW3/r+mlvFKe63cKYc++xFQL/TSQ&#13;
+MX8r3m9K7A==</DigestValue></Reference></SignedInfo><SignatureValue>Wol/S6ADPtlQ4q5CJdj5Vzj0nBCv1x8WtRCxV1qTSOgfEVemI4I8mXwdrnz07yyDWj088DCtC8Hk&#13;
+jaBUVSVNQnqeFcjpm9CIy9uGLS0HmsnTxdw8c61DdQcNqLvzpS+BIjfOazNI8ZzwWk7QXbd/ivT6&#13;
+1wrn/aqNalHCAqjRsNWIVkWPcw+LGk+UhcArkNXin3fACJkfRqPIRjJuYHVath6L3aJoSFXSBDQU&#13;
+YDlv1n3hD4E+EMIpGHteCkCEcLy9jP4lhv1Lkc81jwfggP7zyWneLv4TpsiX/dHcMxkXtSd5OZSC&#13;
+H+fqLPbxyLWxl0+4x+4uzRiOK6iNCL+GHbhHUw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -69,4 +69,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e534c418-dd21-4df7-bff8-b3dcc8b75571" Target="#_61c8177d-073c-414d-a038-1e8c2a750edb"><Timestamp>2020-04-23 10:28:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_04cdd48c-cef0-46a8-bedb-5bee7e71ed3e" Target="#_d3632ef0-0f6e-480d-b934-dc63f45de88f"><Timestamp>2020-04-23 10:52:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
