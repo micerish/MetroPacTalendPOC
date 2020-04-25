@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ptnOxE6OpYRncAl/TSjuWDgPSu2AFaFtmi34JhoA"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:nHn75cYmDy8h8oWDsb2L3iuAFI71gmhl57CutjIJ"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:VLLoJ/P6bNWUdRVe+6wm6C6/79+9yhDm0kODXuIN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:BTxEn2MUWefMZd/zujeIu2SGjRexo0zdh8ipoIIZ"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -118,7 +118,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_DxJDwIbWEeqNVOI66KxvUA"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/DELL/Desktop/MMI POC/rd_Order_List - Copy.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:yyRCSG2uWiW5cmq9G45O6wLoFN0tBTRPzD9vcXiF"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:/qy7yc4A/ESP/hch8cfQgfvFtatB8/A6ikoKCgNN"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="&quot;Raw Data - Order List&quot;"/>
@@ -334,8 +334,8 @@
       <column comment="" key="false" length="13" name="request_ship_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="ship_to_customer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="52" name="ship_to_address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="geo_lat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="geo_long" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="geo_lat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="geo_long" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="pre_allocated_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="allocated_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="picked_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
@@ -360,8 +360,8 @@
         <mapperTableEntries expression="row1.request_ship_date " name="request_ship_date" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.ship_to_customer " name="ship_to_customer" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.ship_to_address " name="ship_to_address" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="new BigDecimal(StringHandling.FTRIM(row1.geo_lat)) " name="geo_lat" nullable="true" type="id_Float"/>
-        <mapperTableEntries expression="new BigDecimal(StringHandling.FTRIM(row1.geo_long)) " name="geo_long" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="new BigDecimal(StringHandling.FTRIM(row1.geo_lat)) " name="geo_lat" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="new BigDecimal(StringHandling.FTRIM(row1.geo_long)) " name="geo_long" nullable="true" type="id_BigDecimal"/>
         <mapperTableEntries expression="row1.pre_allocated_qty " name="pre_allocated_qty" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.allocated_qty " name="allocated_qty" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row1.picked_qty " name="picked_qty" nullable="true" type="id_Character"/>
@@ -468,8 +468,8 @@
       <column comment="" key="false" length="13" name="request_ship_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="ship_to_customer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="52" name="ship_to_address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="geo_lat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Float" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="geo_long" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="geo_lat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="geo_long" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="10" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="pre_allocated_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="allocated_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="picked_qty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
@@ -493,13 +493,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9b18c302-6081-4b57-acb0-7319ccefde0d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LnrtoR+erwRLfKxq26hCW2pey7HoUnl8fKg/auWgFfzNpIiWDu1A7fDH1iQF0VGWNpCcSr1jti80&#13;
-qA7I5S2cqA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3b1dcbbf-f1a1-45e9-a93c-0da9f2789d53"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hfTKwSD18qCXq74AZCIxusl4mgx+LNc1kOypbm2JusavoxoPVRh7VmoBpNck0yTN0XD0XLBEVnoU&#13;
-tenlNe8bwQ==</DigestValue></Reference></SignedInfo><SignatureValue>RWiznJqPgadncWct6MIqq2LnQtD+fofPGMnjizH0Zg9cVE8Yj8GinUac3mFpMfjbt+7zHvMh1qob&#13;
-KlO3vxp9rNJUX0AFTwJ0xc8na+ZhzJAwEpUyhb/0voAd6GfeVOozT6XVMa5Y7CPc5er6THX06SUL&#13;
-lI7HDuIpIEinVqLMXaZrlYUlMumflUmsWcLpVhRDI2kAEa62UYbClYwhra7geELxKAEIhMYRiuFk&#13;
-074Y0aLQGmQ+dPnASBKmxDDLi8dz76zB1VW+pcJ94WchKOhjzG0HkCQhkU0E3QqBD0Bq6r3PWjv/&#13;
-CtViLKJ0d7Lq3Q8woBXnFqfq6OAzu6cYYh5wwg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_11df690e-cb11-4875-b6b0-ba2ec0f78da2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qkuFFkQZZVNWzrVWbnqjzKIB+IjT3Ks0uUbosom/AFdC5iJ9NS8bZJzzcgAHou1hLo/i/k7GVfH2&#13;
+JyNBSmKr1w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b2c95390-d728-4b7e-bc95-f25e598c903b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>F4+aFZxyWGSPT75s2oRsEP19YJZlm3dToqiCVMafvSVjXbls7U6ckuPqyWL5Za6zMCvpR78CoSm4&#13;
+x0rRMgcZNA==</DigestValue></Reference></SignedInfo><SignatureValue>FqK8+ZAgo9BPgy1MIqQcAi0k9KBPAxo1WRoIPk291MciGre/rmyRDQOz9Qn4GLp+Hv79gpMlTrxC&#13;
+IaMFqOje7QSnUAbQ4LDZ1xXd69bM44GoAQSkapJ88H31zx1WuBVW+nbHkGROl6aTF3nPEWp/c2Xg&#13;
+qWGoyYdKzfoZn7yVSAnw9sByJ/D29TVD+1MNq6C122ulhxr/X7cD0gHYLsXuprBNYZt/kdeJaZ31&#13;
+E4bGVGB0OW32YsqDaqNKlqnlfPWw62xXDAsNmLuIP+JIGTa8WO2bK+y5RyPMGHPAgllG3tVFTvND&#13;
+Xo8r2tjI+SUEZjz8f7av6SfLazGboWwqrZTtGg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -521,4 +521,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3b1dcbbf-f1a1-45e9-a93c-0da9f2789d53" Target="#_9b18c302-6081-4b57-acb0-7319ccefde0d"><Timestamp>2020-04-25 10:10:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b2c95390-d728-4b7e-bc95-f25e598c903b" Target="#_11df690e-cb11-4875-b6b0-ba2ec0f78da2"><Timestamp>2020-04-25 10:11:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
