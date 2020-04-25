@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:3txK4UIc6VjFpaaYdypuzkD2A9mfC5RBBv1Sr5VQ"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:n4WHKFKoRiVgYcHhzRYFx331YlF3bF2N6mXQQ6W4"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xu0RaunutAtR+X5VNI7zS9rH0gSrirSW3cJYZmRi"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:rkTmpywJSNCDtMeWZJjKsBHYezDbOZ8z5l9YTjJz"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -118,7 +118,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_sFM5gIY-EeqNVOI66KxvUA"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/DELL/Desktop/rd_Item_List_org.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:snzWDjmTLeMyRNSZerfkdnVzPC55ANOQHHvNL66Y"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:7ieua3MzYK10S/HIX1BqeTli53DBsg+aUdPX7MXT"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Raw Data - Item List&quot;"/>
@@ -301,7 +301,7 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="out1">
+    <metadata name="out1">
       <column comment="" key="false" length="100" name="OWNER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="ITEM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="DESCRIPTION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -311,15 +311,15 @@
       <column comment="" key="false" length="11" name="EXPIRATION_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="STATUS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="PACK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="GROSS_WEIGHT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="GROSS_WEIGHT_UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="CUBE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="CUBE_UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="PURCHASE_PRICE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="RETAIL_PRICE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="CARRYING_COST" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="ZONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="ON_HAND" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="GROSS_WEIGHT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="GROSS_WEIGHT_UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="CUBE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="CUBE_UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="PURCHASE_PRICE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="RETAIL_PRICE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="CARRYING_COST" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="ZONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="ON_HAND" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -334,12 +334,12 @@
         <mapperTableEntries expression="TalendDate.parseDateLocale(&quot;MMM d,yyyy&quot;, StringHandling.LEFT(row1.EXPIRATION_DATE,3) + StringHandling.RIGHT(row1.EXPIRATION_DATE,(StringHandling.LEN(row1.EXPIRATION_DATE)&#9;- StringHandling.INDEX(row1.EXPIRATION_DATE, &quot; &quot;))) ,&quot;EN&quot;) " name="EXPIRATION_DATE" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="row1.STATUS " name="STATUS" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.PACK " name="PACK" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.GROSS_WEIGHT " name="GROSS_WEIGHT" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.GROSS_WEIGHT " name="GROSS_WEIGHT" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row1.GROSS_WEIGHT_UOM " name="GROSS_WEIGHT_UOM" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.CUBE " name="CUBE" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.CUBE " name="CUBE" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row1.CUBE_UOM " name="CUBE_UOM" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.PURCHASE_PRICE " name="PURCHASE_PRICE" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="row1.RETAIL_PRICE " name="RETAIL_PRICE" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row1.PURCHASE_PRICE " name="PURCHASE_PRICE" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.RETAIL_PRICE " name="RETAIL_PRICE" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row1.CARRYING_COST " name="CARRYING_COST" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row1.ZONE " name="ZONE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.ON_HAND " name="ON_HAND" nullable="true" type="id_Integer"/>
@@ -430,15 +430,15 @@
       <column comment="" key="false" length="11" name="EXPIRATION_DATE" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="15" name="STATUS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="PACK" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="GROSS_WEIGHT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="GROSS_WEIGHT_UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="CUBE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="CUBE_UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="PURCHASE_PRICE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="RETAIL_PRICE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="CARRYING_COST" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="ZONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="2" name="ON_HAND" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="GROSS_WEIGHT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="GROSS_WEIGHT_UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="CUBE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="CUBE_UOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="PURCHASE_PRICE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="24" name="RETAIL_PRICE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="CARRYING_COST" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="ZONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="ON_HAND" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tMap_1">
@@ -454,13 +454,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4c9ecd58-9cf1-42e2-9fb7-303bc4cf776d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wOHHfkF5Oeg3Y0YeCmuPjJxst7j+xBzpkuSNqqz4SN1E8xxqmgqK/3+oMD+ad0C4Oi9kfHOyqB7k&#13;
-0kOv1dy2Dg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_495c4921-0540-4a5b-b1a6-8991e2ba8e93"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NFO3VMFX+rXmh/amohBuYEnOo+VPXgr7gAqiLXmqx9J5wsjLrn+CuW2RwN+HD/SNVnqtYNvnTijd&#13;
-OJkK5s4qig==</DigestValue></Reference></SignedInfo><SignatureValue>Cpjmiphyaz0bz6HOPxf5wOnrdnhjFEnLC8mNeaJmXibuA4YtYgWw2oUa1IjPK4L7oFr61HlEFiR0&#13;
-m+y3p49lfi8KUbMm/g1yzBnvUpRN61H/KIOgOC5jsQd7sMn4v12YfCW6+WdXK4ZiNLjsY3I1SuqM&#13;
-BTyxgx+T//1TZc0a3vKPCV/6vRJWOnF1LYaaYCWqoZ9XtGnV1piM5iXqvSm/Zq9om/4XlXq49TD3&#13;
-vNbwLInwOa/qIqSs/PL/XKkxBYOCi1RuBI0BVEb/6ZWRJAaEEwOzirJ2vBAd5/rJ7yij0Vn3p5bf&#13;
-Yu8oXiRPZytSvgBvumkvY6GhS2EZb/Q0F/kmig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_07ffc567-c4b2-46b3-b748-b778dd830d77"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>01++LO4BBm31udIaMT3BlK7+5SEeqQSgSJEwVt4hViLxfuwTAG+YtPU6Tq0TvsNyVJzC6V6APp+1&#13;
+TTmTs1ybhw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f3cd75e0-7734-4eda-a344-6997a5c19e4f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8I9kRKfNupE1vEOJDEiMOf0QbXqJoAkg0XHX6zAYmG38PEicpZ6qDTYL4tLdPvs1bFXeIUlKJVdd&#13;
+goqn6kRRoQ==</DigestValue></Reference></SignedInfo><SignatureValue>MV+8tNJY/plbuKdkzjoaKLihGUQU/8ENhA1MXgcGRsNuURtcbWhWG6DGivuhhChWzZbRUyn4nR7W&#13;
+v92hDLMRUmgyNMDJxAlJ7mbu/RgzFNP9N2VHEPB6kQA2TVOFUzV7A2O7kP5x3UkNnpE+2aZAVHK8&#13;
+pEPKQ+Wb3rVOsAbdUseVu4nHhPHdXTwn7+m61MDulPLW0B5PxiZM7z9QO/FtpPGGw46hR52k9toq&#13;
+rZb1umc1zELnVDYJgws/o7C3RJNh7/7pewtoc7AR6/hV3FaqqaeNc+maxwSH2ffdOZxSciAuLQAB&#13;
+N1QHi/S8DAWJmMYH4+WFuHGgZF96SkzjRSQUNw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -482,4 +482,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_495c4921-0540-4a5b-b1a6-8991e2ba8e93" Target="#_4c9ecd58-9cf1-42e2-9fb7-303bc4cf776d"><Timestamp>2020-04-25 05:45:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f3cd75e0-7734-4eda-a344-6997a5c19e4f" Target="#_07ffc567-c4b2-46b3-b748-b778dd830d77"><Timestamp>2020-04-25 05:48:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
