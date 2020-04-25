@@ -388,11 +388,7 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_dJCRsIV5EeqNVOI66KxvUA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_xxzkwIUyEeqNXLokaOBhUw",
+    "id" : "_DxJDwIbWEeqNVOI66KxvUA",
     "version" : "Latest",
     "type" : "property"
   }, {
@@ -456,7 +452,7 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
-    "id" : "_dJCRsIV5EeqNVOI66KxvUA - metadata",
+    "id" : "_DxJDwIbWEeqNVOI66KxvUA - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]
