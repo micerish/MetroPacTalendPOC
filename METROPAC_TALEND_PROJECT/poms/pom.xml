@@ -22,6 +22,7 @@
     <module>jobs/process/test_data_type_0.1</module>
     <module>jobs/process/inventory_adjustment_0.1</module>
     <module>jobs/process/emailtask_0.1</module>
+    <module>jobs/process/test_src_tgt_counts_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
