@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:yaq2G+220hF0XJF/F8pmnPkwiwNYOI1UgCSj2OBU"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:qNjSqvGdMUvzp5XmC0HPhdEVzBcXF/EyUua4etLA"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:53qbsVDfapph8KX31KlX2u7Bs0T+ryG2pUEpoL9Z"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:LDvwz/zoHe8MYqdUP0fhTbf8WN9ehp3JhzNjTOmu"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -118,7 +118,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_QSqQAIq6EeqK77uK4XMIoA"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/DELL/Desktop/MMI POC/rd_Lat_Long.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:SIN/TNDl3IOySQj/1i529EN0N50SsfwgbEtnmRzC"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:mxWH1C/ySyVBkcLAkzX/VuXXBPt30zTlX2DS/Txb"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;LatLong&quot;"/>
@@ -189,54 +189,40 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputExcel" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputExcel_1"/>
-    <elementParameter field="CHECK" name="VERSION_2007" value="false"/>
-    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
-    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/out_pmm_test.xls&quot;"/>
-    <elementParameter field="TEXT" name="SHEETNAME" value="&quot;Sheet1&quot;"/>
-    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
-    <elementParameter field="CHECK" name="APPEND_FILE" value="false"/>
-    <elementParameter field="CHECK" name="APPEND_SHEET" show="false" value="false"/>
-    <elementParameter field="CHECK" name="FIRST_CELL_Y_ABSOLUTE" value="false"/>
-    <elementParameter field="TEXT" name="FIRST_CELL_X" show="false" value="0"/>
-    <elementParameter field="TEXT" name="FIRST_CELL_Y" show="false" value="0"/>
-    <elementParameter field="CHECK" name="KEEP_CELL_FORMATING" show="false" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="FONT" value=""/>
-    <elementParameter field="CHECK" name="IS_ALL_AUTO_SZIE" value="false"/>
-    <elementParameter field="TABLE" name="AUTO_SZIE_SETTING">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="whse"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
+      <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="whse_address"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
+      <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="whse_lat"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
+      <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="whse_long"/>
-      <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
+      <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="PROTECT_FILE" show="false" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:3Rc64KfsBTGuEnEreA7ZvMUhbX+6Aqd4tGrw9FfC"/>
-    <elementParameter field="CHECK" name="CREATE" value="true"/>
-    <elementParameter field="CHECK" name="FLUSHONROW" show="false" value="false"/>
-    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
-    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
-    <elementParameter field="CHECK" name="RECALCULATE_FORMULA" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tFileOutputExcel_1">
+    <metadata connector="FLOW" label="metadata" name="tLogRow_1">
       <column comment="" key="false" length="8" name="whse" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="25" name="whse_address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="whse_lat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="9" name="whse_long" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Float" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tFileOutputExcel_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
@@ -245,13 +231,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fa6107b9-31e6-4812-a31d-b0f01f197739"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wA2YJ/xKcPx64VqWe8OvTqebH5vVTG3cjcHqaESdYvgyGsIWY7TlfFBQ7WQ+HCxbBLPKJwXSOlku&#13;
-KSsDkxGn3Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_df35dc2e-430e-4220-ab90-83aa1d0b77e6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7OIy/m/oArDZr4+vo9GBo2bOAzhAM/uY1NEJDsBc3fZ88rHvCpSTOz9QF4UerUmIZ/VG2B6jO+qi&#13;
-IocSczjGzg==</DigestValue></Reference></SignedInfo><SignatureValue>Jrfiln6v5CGiovmFStHAPgVZj4oWwdaqvg5JlyvhGznxK7UABOK7mROc1ByYtGjFY/BSmwPN/A3C&#13;
-V2CRSINJjrwRpYsyJlvFdWLKjlBvzFWBJxan0c7dsfBGJAdxcyJC+wQtWoQo6/81keJxXIqgdXiV&#13;
-8FSLQtWrXy2lDMZzH2UJUH+P7R7w36TTjT6K5ejviD/x6xBXb80UNoHleBDYmK3AKEjtgCUTTqGj&#13;
-IRNEGz8n2GTfuzNvTUAttVw53AQmr2UyN7sJuu87C2VHQg6NF793PwpVz2D54xHuuBL6WpgJIWL3&#13;
-5nL7A0eX97Dnv6lDlyaPseZCv2XmNR1UNCx1QA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c3d8d952-830f-4fef-aa22-f97047abf5a2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tFFsb+EEG7zi5H10ZWApvvRY1WJCb1T3NTgWj3kWt8zuMpfIs2gzQPDxwBEyEGK026k3TQ9HP9WY&#13;
+L4BXdaay+g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e9263acb-4adf-4cd3-88e6-f768d79fbe9c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>N6renkQI+PpGJrhr3JwzyyJX0Z4e3k9p+ca+rj4gobRGrOTZdwvXCYNC7fE989HFnlTP8qp6sJTH&#13;
+G5xoTmnusQ==</DigestValue></Reference></SignedInfo><SignatureValue>Duw3Xc0fEf6O1Lu/VKvVxtvnTE5/Cu/8YUFy1/cr5ik9V5M9mfGFFkqVkYvkwNxDcRRCzKbtcxVe&#13;
+zxCDz0jlg8iSgXRo48tCeyW5u59s2wrRodMMN4sU36g4cEHzM5WHtSxCMA2cDViqVz0pgayIhpDb&#13;
+kZ3d6mHtdHfe00CvYM9RNx5ZaW3CuWsScg3gqpg0iDJVeJxYGqB37mjKo0yFcGdVyqGpCyslYMj0&#13;
+sCBnWbHEbamp6CjthYUgGjLxfTcMJjr1Bbee69ioMiMKB7GwZ5xCYalNoxznLw3e0BJ+DP7xggRs&#13;
+IZsZklknYl80fMjzmfrsMHOYyz69lsdNlOfUnw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -273,4 +259,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_df35dc2e-430e-4220-ab90-83aa1d0b77e6" Target="#_fa6107b9-31e6-4812-a31d-b0f01f197739"><Timestamp>2020-04-30 08:13:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e9263acb-4adf-4cd3-88e6-f768d79fbe9c" Target="#_c3d8d952-830f-4fef-aa22-f97047abf5a2"><Timestamp>2020-04-30 08:14:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
