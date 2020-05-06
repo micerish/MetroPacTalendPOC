@@ -23,6 +23,24 @@
     <module>jobs/process/inventory_adjustment_0.1</module>
     <module>jobs/process/emailtask_0.1</module>
     <module>jobs/process/test_src_tgt_counts_0.1</module>
+    <module>jobs/process/ads_fn_lu_lot_information_0.1</module>
+    <module>jobs/process/ads_fn_receipt_notice_0.1</module>
+    <module>jobs/process/ads_fn_staff_info_0.1</module>
+    <module>jobs/process/ads_fn_lu_order_status_0.1</module>
+    <module>jobs/process/ads_fn_order_master_0.1</module>
+    <module>jobs/process/rd_inventory_adjustment_0.1</module>
+    <module>jobs/process/ads_fn_inventory_adjustment_0.1</module>
+    <module>jobs/process/ads_fn_warehouse_inventory_0.1</module>
+    <module>jobs/process/ads_fn_lu_adjustment_0.1</module>
+    <module>jobs/process/ads_fn_order_details_0.1</module>
+    <module>jobs/process/email_task_0.1</module>
+    <module>jobs/process/ads_fn_item_master_0.1</module>
+    <module>jobs/process/rd_lat_long_0.1</module>
+    <module>jobs/process/rd_order_list_0.1</module>
+    <module>jobs/process/rd_receipt_notice_0.1</module>
+    <module>jobs/process/rd_item_list_0.1</module>
+    <module>jobs/process/t_send_email_test_0.1</module>
+    <module>jobs/process/ads_fn_warehouse_info_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
