@@ -1102,10 +1102,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_BwBsQIVEEeqVltFug5rWew",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_EDdpMIRtEeq6bdHBRlVktw",
     "version" : "Latest",
     "type" : "property"

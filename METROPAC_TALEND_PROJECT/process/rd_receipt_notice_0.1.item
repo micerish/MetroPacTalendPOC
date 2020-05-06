@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:lMAZVehiSwvEu6nlH3JAQ/Iis7837YyxNu+yz5Af"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:5PQfegPxjCeh3sX0Aro5WoLJcCsBXv7byFTq471N"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vzNbDX3crP8NxTz3zMApmZPEvHDVE1HYA2RqyULN"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5xLnRiC+MvsH+xTJ2OTx6vlMtt0C9A1HUYSQAy24"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -114,11 +114,9 @@
   </parameters>
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_BwBsQIVEEeqVltFug5rWew"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Suhail/Desktop/MMI POC/rd_Receipt_Notice.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:otrrtJLudm5O7eL3YSQNf4cr6melr3hY2dAxgl7n"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Source_Files/rd_Receipt_Notice.xlsx&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:HhdiqicK4OnqrurBG+SHvWZ8sO+tj7/WoPp21hhK"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Raw Data - Receipt Notice&quot;"/>
@@ -435,7 +433,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Suhail/Desktop/MMI POC/receipt_notice_schema_error.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Log_Files/receipt_notice_schema_error.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
@@ -486,7 +484,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Suhail/Desktop/MMI POC/src_receipt_notice_error.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Log_Files/src_receipt_notice_error.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
@@ -616,7 +614,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="GREENPLUM"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;gpadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SPhpPho1wAois6r/vBJcrzUbkM6/07DshDWjWzl8KqjtUMNw9n0="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qzyc+CxTd0t3KJoEMu8h5H0H9YgN0UTJDBJ+wTQGDArr0Og2uXc="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;receipt_notice&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -769,7 +767,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;suhail.beig@servisco.com.au&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:nHbBSo8Kn3UAdZ84Do896irtJoRJZXf4zjXRqCf/q5xfMdoOeZ3Jhg=="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:zPvBt70kD0j9LEFeeg5BAwRTZ0PYilMmkm84Of4SJpOi5wC+83KzLQ=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -882,7 +880,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="GREENPLUM"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;gpadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:HPJMLN6Q0wb64p8HdGdXyG0S2J1NK0a8imlZ+koK//OhRt6gfNQ="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lz2/o1F3HjaH8wKK50znB8MIwSIpv9ymJiJVG7+mMqyZAqeAoWI="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;load_status&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -965,7 +963,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;suhail.beig@servisco.com.au&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:eoKaQERcUIlz+4UTzuhQvjckijTFxoE4zszPxCaamfBVqnPHW+Ldlw=="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:zCdjO7Ij0UCNZcmKzPfaF+Q7yShAgyLrIIiZPyMuBPR3Nho0g9bY5Q=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -1070,7 +1068,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="GREENPLUM"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;gpadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tCXahoBD1yeT0C7qs4ZEXj2y76jV/ui+QSeRoO3/OjfpzJNXBy4="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JqEcCmlqfZvYLQYKJQUp/WvhVtP4w844PSV+4JnYfPFecPcuSfQ="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;load_status&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1142,7 +1140,7 @@
     <elementParameter field="TEXT" name="CC" value=""/>
     <elementParameter field="TEXT" name="BCC" value=""/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;receipt_notice Staging Load has errors&quot;"/>
-    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hi Team,&#13;&#10;&#13;&#10;Please check the files at location:C:/Users/Suhail/Desktop/MMI POC/src_receipt_notice_error.csv&#13;&#10;and C:/Users/Suhail/Desktop/MMI POC/receipt_notice_schema_error.csv&#13;&#10;&#13;&#10;Regards&#13;&#10;Suhail&quot;"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hi Team,&#13;&#10;&#13;&#10;Please check the files at location:C:/Log_Files/src_receipt_notice_error.csv&#13;&#10;and C:/Log_Files/receipt_notice_schema_error.csv&#13;&#10;&#13;&#10;Regards&#13;&#10;Suhail&quot;"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
     <elementParameter field="TABLE" name="ATTACHMENTS"/>
     <elementParameter field="TABLE" name="HEADERS"/>
@@ -1153,7 +1151,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;suhail.beig@servisco.com.au&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:VmjbuFNWpQtHNU+C3/qoU8rWGQwhaYcJBZSi+yWXlhlwuqWUBWTQ3w=="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:v2lwuP6o/wUyfKEzAK5wjyXXztRuzjKi/DX3/8Zdcyv2ZTLewF7rCA=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -1182,7 +1180,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="GREENPLUM"/>
     <elementParameter field="TEXT" name="USER" value="&quot;gpadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+/4JbQO4ETcM3+/1qY9g/KkE442r0FdRzfIMhLSq4imf3OFozdU="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:woiCyOIohwc9iOZMyvp+hqC7CvucuwqVlZGjEEy4c2PMSjToyx4="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1352,13 +1350,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cadf10d4-6dc4-4edc-98a1-15ebc8c96525"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Yj/fGwknLs9yMBmIsvXd/ZQO6lujaVP8VFUK2nujPPqbEZ/9T18HSj2CGK7Sp48yCAW1MIYZVRJ7&#13;
-1HqUY6gOBw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_100bfe60-071f-4f15-857a-1a68219be19c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9AMO7wVwWgrv8Uc+HtnikKd1YkRnK5/MPnUjOm1qdLzSfXsnq8Eg4Z2yUjW2JBj/Su2XDwXr86HG&#13;
-y6YWrnnOgg==</DigestValue></Reference></SignedInfo><SignatureValue>kT+oKR7/j10nEA9bY9Mq4nTJH+dbFCzK0ssGX6lC1h+VLTShj88eu11OCUK8dJilKa5ueqDGXsrL&#13;
-MdU2jPdCJ0yko9kLbruva6Ab168sljHIh9hi+GO0FWoRtzPGc8s8Rz37RCsk8m++3cCnpSHmfOXK&#13;
-80k4B3GEDWgw9njb87LD0TGuAhNlbhVxuMVaVkzHF7LipKNCDrmvnrmO3dFL/ayoLzH/bfF0O+8T&#13;
-yciD+xitTLLSk106ifmRrLa2UAb5UZSseveK2eAEkdFgQj49qqnQJv4qQJz37YH5U0vMj4PwZyD2&#13;
-GnbEfoVqTeQ8W61C++fFvBdE4so87ushTlbMaw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c61c54f1-b136-4ce4-a36b-29c6ff6017a5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rR1JTH5W0r9lNVjzUhv6filIktewAAFrYU0PKMgXP0hVqrYw4q1y+SQRaETC+ckic6oWIoqOJ0Xa&#13;
+KZuOf8EOqA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6c4c92f6-7362-4761-9db3-910511945c8a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>33oHgAdjN8lBCHEUxYjzutcatsz/Tq/C6/lHFBMLa5d1MoPhOOD3RMmkFkaKtj0sWp/FPkFdFvwj&#13;
+zK7jKRAwMw==</DigestValue></Reference></SignedInfo><SignatureValue>IzPZTUpO6SgU06Djhlahc0J7SPTc//MJB2h1dJWn1aaS8stDu29hDhkiTcfIoG7kGHeprcK+4cCQ&#13;
+n0O0IvvodLbcROznvnyx9jmq1EYVrjsHXPGshrAJfy1MCwg78KSDmpM2tJBeXiEYPoiqZsjwD1nf&#13;
+LwPA00kSnGr5Vq/g5+Q6HQ57aXgft52HoiIaBihxBCbus0u/SlutU02Q7sNYSaDUIerNUBHSafLw&#13;
+TAHU+6zkI2hTE51HYsX6eQMjqS26IXbnODHwKjH0VfLE9jSwmhCBGrkDN/LIof5KuWxxTtnyR+GT&#13;
+r6iBdFTA6qrWmGZWV91GP6Zf9IcRdVC7oT5dog==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1380,4 +1378,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_100bfe60-071f-4f15-857a-1a68219be19c" Target="#_cadf10d4-6dc4-4edc-98a1-15ebc8c96525"><Timestamp>2020-05-06 11:11:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6c4c92f6-7362-4761-9db3-910511945c8a" Target="#_c61c54f1-b136-4ce4-a36b-29c6ff6017a5"><Timestamp>2020-05-06 11:21:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
