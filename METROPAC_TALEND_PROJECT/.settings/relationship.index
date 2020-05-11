@@ -1027,10 +1027,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_5w7CEIqxEeqAWvb04HBB2g",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
