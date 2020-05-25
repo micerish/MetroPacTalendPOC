@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:sohOeabjikxLLZL+Xw2O4HopelPWimgxa7ZDoDPF"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:HrbM0VpWuIQlK4P86ReKSG124ISRLV+OvAva7z3P"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:9seE+5Mp1n5GNE2E+VpexH7PGm4HOvDBIAJdaTS7"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:WevM44mPlRhy+LWA7F18Mrg2Yvv88cXW2tp34BbK"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -116,7 +116,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Source_Files/rd_Item_List.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:juFc5N2fdmmKXRGcYVBP4Gcp/wH6Dhx3Mx2mygAs"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:nZfHsilq6FXcajWLqkVhs87Phf8LoBjnkS2uHeIX"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
     <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Raw Data - Item List&quot;"/>
@@ -671,13 +671,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_EDdpMIRtEeq6bdHBRlVktw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;3.0.68.202&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;172.16.1.50&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;metropac_poc&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="GREENPLUM"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;gpadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:trOHOaWPNqnTZ4d1FruZ5jHuuULvOQuULa03VIanIlI6kRUgN+M="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:i5VxaBUnYw346Y+GOJPN1KEJOTHtkLuHRDzt+siW9BBvrNj2sVU="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;item_list&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -859,7 +859,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;suhail.beig@servisco.com.au&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:mKYQ7bO+/dOHN784FYZzRVQtSt5ei8OgVS/dGyRodFRtLJjaPQB+jA=="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:0WSwQeJmCISf1k8kDDxwfbWQHC1Mm/JekxR8zkWSWKqDZrp9du3jnA=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -958,13 +958,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_EDdpMIRtEeq6bdHBRlVktw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;3.0.68.202&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;172.16.1.50&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;metropac_poc&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="GREENPLUM"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;gpadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oP5kfuAaRzO5ooC3ybqc0X6842P9o813Tdaa99S7xkl7QuVvf0A="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/5u3cep7SaPZGD3WmcGd+4gAzJTPxvTkUIki6YsrZt/TPuFv/VM="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;load_status&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1047,7 +1047,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;suhail.beig@servisco.com.au&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:ZrNXDL+QyV4DlPD1E8jaWBfwzJV6xdoy1P6BKMMG6ICKD7+EVp6B3A=="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:9e3J2HYRgkSTFMgaC8XJeE633dptWz8auMnUtDVu9a8Vb/zQuSpLsA=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -1146,13 +1146,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_EDdpMIRtEeq6bdHBRlVktw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;3.0.68.202&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;172.16.1.50&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;metropac_poc&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="GREENPLUM"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;gpadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:c5VfWbAybkoKJef+aCMjfM1QsmvSRGDjROIDU8NilJ76Nja1ijA="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:82TA7fNryUwLmuUpcTf5FyjWMMIqfuJirtwGzSUZX0bbV7gV4Ds="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;load_status&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1235,7 +1235,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;suhail.beig@servisco.com.au&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:0jiX9/bRsp0AtZo6lZTNMkTxHr95wPmMP8SftDh/FFzbji6vvqXvGg=="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:ovmRpV4gSYwsVUXW5fFnQEJYVI8LZWi1STTqPv97omBoMsp0OD/WVA=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -1258,13 +1258,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_EDdpMIRtEeq6bdHBRlVktw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;3.0.68.202&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;172.16.1.50&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;metropac_poc&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;stg&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="GREENPLUM"/>
     <elementParameter field="TEXT" name="USER" value="&quot;gpadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:c743gVq0Sy2BF6onjh/HBNx+Y28hgPehzMdhZn1ZjTt+/c7rPp4="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gDQiizbBX6+ZKU0+KCoyoM5zZY1wkpP/2lAl7hkmxFJ1zNJ1c48="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1307,7 +1307,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;suhail.beig@servisco.com.au&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:wnc+C0ivtCBIjxeWqO3GHaz7Q6bLUoafCRea49VjPiJlCzedvEYU0w=="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:e8fz/+6QQwBV+8TLYNkBywptYH6JOSjsf/97qApwlgiI8BsolZ093w=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -1479,13 +1479,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8d6a1a14-0239-4ea9-b345-8e532a06f467"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hj6NnZ7KCkNfzBPgMAe5o9XeitsFGF9+3W06+a85DbNGeXHp+SzOJhPwLSmv4Msc7TYXGRpk8sHa&#13;
-QrgO/KdpJw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0f7ee943-2a9a-47e4-af31-347002a7bb6d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>13mvC3ZIBaTiiFrFVjo5agQ2+RNDaDYvL9wlYlvvBpouWq/U0Vm8BejciXkSZUOm7ncfzqvHFMuU&#13;
-yS73+5iuUA==</DigestValue></Reference></SignedInfo><SignatureValue>dunZODXTUCvOygj84IqcHKCkEvodrTlj2lehMcFBTgSklnz0yVD6zvzokAFeteStmsHXjPUZkRGS&#13;
-feLly3lwZI27k6vrAlR99rkpLEpah8imkxHPj7bxK8pAhKl9E1hiqqPgOHZ7uJTgPXET+n1t46Cu&#13;
-1cZXacYQLXWSbszTk3pdHdSeKKisifv3GHqSt2s90XRWjplBiJppWW9Pt3evjD1KmWYBcpdVRoQg&#13;
-GuF7CtP6QQlwXvfDibBDN0JJtfm4L8roBg3UVBbckqbbHOZHoFxR4x2LFtdCaffqdMNDcSWaPDHV&#13;
-sVIENK0Cv1+NHAkEVEEEsEHT3/0VWQ+L0ZxySA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a181f0bf-8e1b-43ee-ad0d-0cc4f52945e6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>waaMjTGwMwajr4KYbinOFANcn+xlfU+6MLQg83YCqd3id+s/PGrvn5XzTc6yE6a5ztHDQ/bVND8Z&#13;
+jwBb1GK8bw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dfc62292-6eeb-42f5-bad9-07bf0afa30df"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bpW3Y6QymmmdxjExofW58d1Qe0PWQM6kGFSmWkHU+wxhPuNUp9YXB+d0aBKKzFj/ZilKlshLG9Tn&#13;
+HyANs8i9iw==</DigestValue></Reference></SignedInfo><SignatureValue>niipKQfbTvtVAU+tiDyKJPEGZa3Qlrry1vnCwoH6qYiq9h2M4vT0Z60lAs5mfpPPtKKOGw2RFcih&#13;
+koAJK/aqsbPF2IgY3vS2KmcwTrr0PFAvnouXk2zRczwmB5uYvqYAvxnzZMi310MAx+foCAHjMrhU&#13;
+17YQB1j9JDwvnCh+T7mW+5FlF01yZnrwjXZPHXpTg7WjDQGX+yxPtbWX+v1LlH45FppW7KKXks/D&#13;
+8l2WiJYZNi8MixTAzNvI0UAhE6zdSR6BsUPjs2VPEThlrHC+YemNFUAafrnu1x/KtrXaAGdzM9IU&#13;
+8A6f/Zt6GotyM3ajAp4MkxgqvGPk+Q2iukhkPg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1507,4 +1507,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0f7ee943-2a9a-47e4-af31-347002a7bb6d" Target="#_8d6a1a14-0239-4ea9-b345-8e532a06f467"><Timestamp>2020-05-22 09:19:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dfc62292-6eeb-42f5-bad9-07bf0afa30df" Target="#_a181f0bf-8e1b-43ee-ad0d-0cc4f52945e6"><Timestamp>2020-05-25 09:57:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
