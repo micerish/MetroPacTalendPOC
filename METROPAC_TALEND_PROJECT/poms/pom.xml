@@ -43,6 +43,7 @@
     <module>jobs/process/ads_fn_warehouse_info_0.1</module>
     <module>jobs/process/rds_fn_rds_report_table_load_0.1</module>
     <module>jobs/process/sales_job_0.1</module>
+    <module>jobs/process/item_master_update_tibco_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
